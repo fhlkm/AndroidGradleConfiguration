@@ -1,0 +1,6 @@
+ext {
+    dependencies = [
+                    "gson"                      : "com.google.code.gson:gson:2.7",
+                    "appCompat-v7"              :"com.android.support:appcompat-v7:24.0.0-alpha2"
+    ]
+}
