@@ -13,8 +13,14 @@ android {
         manifestPlaceholders =  [launchActivityName: "common.tpd.android.samsungpay.com.demo.MainActivity", launchAppName: "GradleDemo"]
     }
     buildTypes {
+        debug{
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro','proguard-gson.pro'
+        }
         release {
-            minifyEnabled false
+            shrinkResources true
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
