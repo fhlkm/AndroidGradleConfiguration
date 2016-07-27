@@ -5,6 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
+        resConfigs "en"
         applicationId "common.tpd.android.samsungpay.com.gradlesetting"
         minSdkVersion 22
         targetSdkVersion 24
